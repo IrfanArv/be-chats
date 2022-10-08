@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.24.0"
+  },
+  "name": "be-chats",
+  "description": "Backend Realtime chat menggunakan node js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js --exit",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrfanArv/be-chats.git"
+  },
+  "author": "Irfan Arifin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrfanArv/be-chats/issues"
+  },
+  "homepage": "https://github.com/IrfanArv/be-chats#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

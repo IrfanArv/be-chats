@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "irfanarv",
+    "password": "password",
+    "database": "chats",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "irfanarv",
+    "password": "password",
+    "database": "chats",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "irfanarv",
+    "password": "password",
+    "database": "chats",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
